@@ -1,36 +1,36 @@
 {
-  "name": "dns",
-  "bucket": "dns-20250326224734",
+  "name": "dns-importer-pro-20250327155144",
+  "bucket": "dns-importer-pro-20250327155144",
   "preset": "react",
   "env": "production",
-  "prefix": "20250326224727",
+  "prefix": "20250327155144",
   "not-first-run": true,
   "function": {
-    "id": 41853,
+    "id": 41881,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "azion/args.json",
-    "instance-id": 39542,
+    "instance-id": 39559,
     "instance-name": "__DEFAULT__",
     "cache-id": 0
   },
   "application": {
-    "id": 1743027043,
+    "id": 1743097104,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1743025307,
-    "name": "dns",
-    "domain_name": "q4te9qis3k.map.azionedge.net",
-    "url": "https://q4te9qis3k.map.azionedge.net"
+    "id": 1743095376,
+    "name": "dns-importer-pro-20250327155144",
+    "domain_name": "ozltnfaynm.map.azionedge.net",
+    "url": "https://ozltnfaynm.map.azionedge.net"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
   "origin": [
     {
-      "origin-id": 203697,
-      "origin-key": "88e47987-f1e6-488c-81a3-f4fedf107952",
+      "origin-id": 203784,
+      "origin-key": "44b4d874-6cf2-4e91-8585-776b5f7c7f98",
       "name": "origin-storage-default"
     }
   ],
@@ -38,17 +38,17 @@
     "created": false,
     "rules": [
       {
-        "id": 388735,
+        "id": 388891,
         "name": "Set Storage Origin for All Requests",
         "phase": "request"
       },
       {
-        "id": 388736,
+        "id": 388892,
         "name": "Deliver Static Assets",
         "phase": "request"
       },
       {
-        "id": 388737,
+        "id": 388893,
         "name": "Redirect to index.html",
         "phase": "request"
       }
